@@ -1,0 +1,50 @@
+{
+    "IS" : {
+        "enabled": false,
+        "clientID": "JVo1Gz3UTtifjNEzy5luxQT7aRka",
+        "clientSecret": "RwoxbWYZfS1rfPGZx6sUvZwICIka",
+        "baseUrl": "https://api.asgardeo.io/t/raminduorg",
+        "signInRedirectURL": "http://localhost:3000/catalog",
+        "signOutRedirectURL": "http://localhost:3000/catalog",
+        "scope": ["openid","profile", "groups", "default"],
+        "tokenEndpoint": "https://localhost:9444/oauth2/token",
+        "authEndpoint" : "https://localhost:9444/oauth2/authorize",
+        "endpointURL2": "https://localhost:8245/t/{{domain_name}}/ecommerceapi/1.0.0",
+        "endpointURL": "https://localhost:8245/ecommerceapi/1.0.0",
+        "logoutEndpointURL": "https://localhost:9444/oidc/logout",
+        "scopeURI": "groups",
+        "scopeAdmin" : "seller",
+        "scopeCustomer" : "customer",
+        "address": "address",
+        "country": "country",
+        "groups": "groups",
+        "givenName": "given_name",
+        "family_name": "family_name",
+        "email": "email",
+        "tenantDomain": "customer.com"
+    },
+    "Auth0" : {
+        "enabled": true,
+        "clientID": "54m06O0DWebCarY1TznwLmA1DGEdNkpt",
+        "clientSecret": "syoKr1QR4BBOweWr1H83K5docFnjC4l_82lMqcKjWZ_2nTfvv-qzJwTMTIOMiB_S",
+        "baseUrl": "https://api.asgardeo.io/t/raminduorg",
+        "signInRedirectURL": "http://localhost:3000/catalog",
+        "signOutRedirectURL": "http://localhost:3000/catalog",
+        "scope": ["openid","profile", "groups", "default"],
+        "tokenEndpoint": "https://dev-2jrkm6og.us.auth0.com/oauth/token",
+        "authEndpoint" : "https://dev-2jrkm6og.us.auth0.com/authorize",
+        "endpointURL": "https://localhost:8245/t/customer.com/ecommerceapi/1.0.0",
+        "logoutEndpointURL": "https://dev-2jrkm6og.us.auth0.com/oidc/logout",
+        "scopeURI": "scopes",
+        "scopeAdmin" : "testscp",
+        "scopeCustomer" : "customerscp",
+        "address": "address",
+        "country": "country",
+        "groups": "scopes",
+        "givenName": "given_name",
+        "family_name": "family_name",
+        "email": "email"
+    }
+}
+
+

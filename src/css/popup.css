@@ -1,0 +1,38 @@
+/* Popup container */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the popup appears above other content */
+  }
+  
+  /* Popup content */
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  /* Popup buttons */
+  .popup-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color, you can change this */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
